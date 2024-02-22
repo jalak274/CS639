@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Jalak_info</string>
+    <string name="app_name">Gevariya</string>
     <string name="action_settings">Settings</string>
     <string name="action_about">About</string>
 
@@ -9,7 +9,7 @@
     <string name="previous">Previous</string>
 
     <string name="biography_title">Biography</string>
-    <string name="biography_content">Hey My self Jalak Gevariya</string>
+    <string name="biography_content">Hey My self Jalak Gevariya. I am from India. I have completed my bachelors in information technology and currently pursuing my master in MS in computer science at pace university.</string>
     <string name="hobbies_title">Hobbies</string>
     <string name="hobbies_content">I love stock trading</string>
     <string name="contact_title">Contact</string>
