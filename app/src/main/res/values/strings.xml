@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Jalak_info</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">Hobbies</string>
+    <string name="previous">Previous</string>
+
+    <string name="biography_title">Biography</string>
+    <string name="biography_content">Hey My self Jalak Gevariya</string>
+    <string name="hobbies_title">Hobbies</string>
+    <string name="hobbies_content">I love stock trading</string>
+    <string name="contact_title">Contact</string>
+    <string name="contact_content">My email is gevariyajalak@gmail.com</string>
+    <string name="hobbies_button">Hobbies</string>
+    <string name="contact_button">Contact</string>
+
+</resources>
