@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:name="com.google.codelabs.mdc.java.shrine.application.ShrineApplication"
         android:theme="@style/Theme.Shrine">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

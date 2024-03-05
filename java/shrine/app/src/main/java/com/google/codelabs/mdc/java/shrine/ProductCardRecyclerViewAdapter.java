@@ -17,8 +17,8 @@ import androidx.recyclerview.widget.RecyclerView;
  */
 public class ProductCardRecyclerViewAdapter extends RecyclerView.Adapter<ProductCardViewHolder> {
 
-    private List<ProductEntry> productList;
-    private ImageRequester imageRequester;
+    private final List<ProductEntry> productList;
+    private final ImageRequester imageRequester;
 
     ProductCardRecyclerViewAdapter(List<ProductEntry> productList) {
         this.productList = productList;
@@ -34,7 +34,12 @@ public class ProductCardRecyclerViewAdapter extends RecyclerView.Adapter<Product
 
     @Override
     public void onBindViewHolder(@NonNull ProductCardViewHolder holder, int position) {
-        // TODO: Put ViewHolder binding code here in MDC-102
+        if (productList != null && position < productList.size()) {
+            ProductEntry product = productList.get(position);
+            holder.productTitle.setText(product.title);
+            holder.productPrice.setText(product.price);
+            imageRequester.setImageFromUrl(holder.productImage, product.url);
+        }
     }
 
     @Override
